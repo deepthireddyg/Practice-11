@@ -6,9 +6,9 @@ public class Main {
          nums[2]=8;
          nums[3]=8;
 
-         for(int i=0;i<=4;i++){
-             System.out.println(nums[i]);
-         }
+        // for(int i=0;i<4;i++){
+             System.out.println(nums.length);
+       //  }
         System.out.println("Hello world!");
     }
 }
