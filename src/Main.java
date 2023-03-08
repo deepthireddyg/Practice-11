@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
 //        int nums[]=new int[4];
@@ -60,8 +62,11 @@ public class Main {
         }
 
         System.out.println();
+        for(Students stud:students){
+            System.out.println(stud.name + " : " +stud.marks);
         }
-        for(int n[]:students)
+        }
+
 //        for(int n[]:nums){
 //            for(int m:n){
 //                System.out.print(m + " ");
